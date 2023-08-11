@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <style>
+            body {
+    background-color:;
+}
+ 
+h1{color:purple;position:absolute;left:290px;top:30px;}
+table{position:absolute;top:180px;}
+.abc{background-color:red;}
+.xyz{background-color:yellow;}
+
+tr{
+    background-color:yellow;
+}
+        </style>
+    </head>
+    <body>
+     <h1 align="center">Javascript Functions</h1>
+     
+     <table border="1" width="200%" cellspacing="3">
+         <tr class="abc">
+             <th>Sr no.</th>
+             <th>Function</th>
+             <th>Description</th>
+             <th colspan="2">Example</th>
+         </tr>
+         
+         <tr>
+             <td width="25%" align="center">1.</td>
+             <td width="25%" align="center">parseInt()</td>
+             <td width="50%" align="center">This function is to parse a string and convert it into a number</td>
+            <td width="60%">Example&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Output<br>
+                 parseInt('MH100')&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nan<br>
+                 parseInt('100')&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100<br>
+                 parseInt('100MH')&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100<br>
+             </td>
+             
+             
+              <tr>
+             <td width="25%" align="center">2.</td>
+             <td width="25%" align="center">parseFloat()</td>
+             <td width="50%" align="center">This function is to parse a string and convert it into floating point representation</td>
+            <td width="80%">Example&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Output<br>
+                 parseFloat('MH100')&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nan<br>
+                 parseFloat('100.00')&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100<br>
+                 parseFloat('100.2MH')&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100<br>
+             </td>
+             
+             <tr align="center">
+             <td>3.</td>
+                 <td>alert()</td>
+                 <td>This fuction displays alert popup box with ok button.This is also called as a message box.</td>
+                 <td>Example<br>
+                     alert("Welcome to Javacscript") or window.alert("Hello")
+                 </td>
+             </tr>
+         <tr align="center">
+             <td>4.</td>
+             <td>prompt()</td>
+             <td>This function is used when you want to input value from user at the time of program execution.It displays ok and cancel buttons.Ok button returns input value, Cancel button return null value.</td>
+             <td>Example<br>
+                 var n;<br>
+                 n = prompt("Enter value")
+             </td>
+             
+             <tr align="center">
+                 <td>5.</td>
+                 <td>confirm()</td>
+                 <td>This function displays confirmation message box with ok and cancel button.OK button value returns 'true' and cancel returns 'false'</td>
+                 <td>Example<br>
+                 var ans;<br>
+                 ans = confirm("Do you want to continue")
+                 
+                     
+                 </td>
+            <tr align="center">
+                    <td>6.</td>
+                    <td>toLowerCase()</td>
+                    <td>This function is used to convert the given string into lowercase alphabets</td>
+                    <td>Example<br>
+                        var str= "Javscript"<br>
+                        str=str.toLowerCase()
+                    </td>
+            </tr>
+            
+            <tr align="center">
+            
+            <td>7.</td>
+            <td>toUpperCase()</td>
+            <td>This function is used to convert the given string into Uppercase alphabets</td>
+            <td>Example<br>
+                var str="Javascript"
+                str=str.toUpperCase()
+            </td>
+                
+            </tr>
+            
+            
+            <tr align="center">
+                <td>8.</td>
+                <td>isNan()</td>
+                
+                <td>It returns true "if given value is not a number".It returns false "if given value is a number".</td>
+                
+                <td>Example<br>
+                    isNan(CP100)<br>
+                    isNan(100)
+                </td>
+            </tr>
+     </table>
+    </body>
+</html>
